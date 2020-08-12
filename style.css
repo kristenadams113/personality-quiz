@@ -8,10 +8,11 @@ body {
 h1 {
   font-style: italic;
   color: #a28089;
+  font-family: "proxima-nova", sans-serif;
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
   color: #494d5f;
   font-family: "proxima-nova", sans-serif;
 }
@@ -20,7 +21,19 @@ h2 {
   display: flex;
   margin-top: 2em;
 }
-  
+
 .answer-choice img {
   height: 10em;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/5a/2b/90/5a2b903ceda31d8b5b39a0234420e5c7.gif");
+  font-size: 30px;
+  border: 3px solid white;
+}
+
+body {
+  background-color: #ECCFF1;
 }
