@@ -1,8 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "proxima-nova", sans-serif;
   margin: 2em;
+  background: linear-gradient(#ffafbd, #ffc3a0);
 }
 
 h1 {
@@ -27,13 +28,10 @@ h2 {
 }
 
 .header {
-  padding: 50px;
+  padding: 100px;
   text-align: center;
   background-image: url("https://i.pinimg.com/originals/5a/2b/90/5a2b903ceda31d8b5b39a0234420e5c7.gif");
   font-size: 30px;
   border: 3px solid white;
 }
 
-body {
-  background-color: #ECCFF1;
-}

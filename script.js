@@ -23,6 +23,10 @@ var q3a1 = document.getElementById("q3a1");
 var q3a2 = document.getElementById("q3a2");
 var q3a3 = document.getElementById("q3a3");
 var q3a4 = document.getElementById("q3a4");
+var q4a1 = document.getElementById("q4a1");
+var q4a2 = document.getElementById("q4a2");
+var q4a3 = document.getElementById("q4a3");
+var q4a4 = document.getElementById("q4a4");
 
 
 
