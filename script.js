@@ -82,7 +82,7 @@ q5a4.addEventListener("click", checkmate);
 //#TODO: Define quiz functions here
 
 function heather(){
-
+  if heatherScore >= 3
 }
 
 function checkmate(){

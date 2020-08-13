@@ -3,7 +3,7 @@
 body {
   font-family: "proxima-nova", sans-serif;
   margin: 2em;
-  background: linear-gradient(#ffafbd, #ffc3a0);
+  background: linear-gradient(#ffafb0, #ffc3a0);
 }
 
 h1 {
@@ -34,4 +34,3 @@ h2 {
   font-size: 30px;
   border: 6px solid white;
 }
-
