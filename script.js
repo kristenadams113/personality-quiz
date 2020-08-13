@@ -89,9 +89,9 @@ function updateResult() {
 function heather() {
   questionCount = questionCount + 1;
   heatherScore = heatherScore + 1;
-  alert(" 'i wish i were heather...' '");
+  //alert(" 'i wish i were heather...' '");
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -99,9 +99,9 @@ function heather() {
 function checkmate() {
   questionCount = questionCount + 1;
   checkmateScore = checkmateScore + 1;
-  alert("'cause you may think you're winning but checkmate...'' ");
+  //alert("'cause you may think you're winning but checkmate...'' ");
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -109,9 +109,9 @@ function checkmate() {
 function grow() {
   questionCount = questionCount + 1;
   growScore = growScore + 1;
-  alert(" 'i made it out, it seems, i think i'm ready to... grow!'");
+  //alert(" 'i made it out, it seems, i think i'm ready to... grow!'");
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }
@@ -119,9 +119,9 @@ function grow() {
 function lookalike() {
   questionCount = questionCount + 1;
   lookalikeScore = lookalikeScore + 1;
-  alert(" 'i'm dying to find a lookalike...'");
+  //alert(" 'i'm dying to find a lookalike...'");
 
-  if (questionCount >= 5) {
+  if (questionCount >= 6) {
     updateResult();
   }
 }

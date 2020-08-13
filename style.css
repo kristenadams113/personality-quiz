@@ -51,3 +51,22 @@ p {
   margin-top: 10em;
 }
 
+.restart {
+  margin-top: 5em;
+  text-align: center;
+  border-radius: 5px;
+  padding:
+}
+
+
+/* changing the buttons */
+.button {
+  	border-radius: 5px;
+    padding: 5px 10px 5px;
+}
+
+.button:hover,
+.button:focus {
+	background-position: 0 -50px;
+	color: white;
+}
