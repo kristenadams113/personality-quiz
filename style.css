@@ -24,7 +24,8 @@ h2 {
 }
 
 .answer-choice img {
-  height: 15em;
+  height: 17em;
+  
 }
 
 .header {
@@ -34,3 +35,4 @@ h2 {
   font-size: 30px;
   border: 6px groove white;
 }
+
