@@ -82,17 +82,39 @@ q5a4.addEventListener("click", checkmate);
 //#TODO: Define quiz functions here
 
 function heather(){
-  if heatherScore >= 3
+  questionCount = questionCount + 1;
+  heatherScore = heatherScore + 1;
+  
+  if (questionCount >= 5){
+    updateResult();
+  }
 }
 
 function checkmate(){
+  questionCount = questionCount + 1;
+  checkmateScore = checkmateScore + 1;
   
+   if (questionCount >= 5){
+    updateResult();
+  }
 }
 
 function grow(){
+  questionCount = questionCount + 1;
+  growScore = growScore + 1;
+  
+   if (questionCount >= 5){
+    updateResult();
+  }
   
 }
 
 function lookalike(){
+  questionCount = questionCount + 1;
+  lookalikeScore = lookalikeScore + 1;
+  
+   if (questionCount >= 5){
+    updateResult();
+  }
   
 }
