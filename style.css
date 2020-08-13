@@ -18,6 +18,14 @@ h2 {
   font-family: "proxima-nova", sans-serif;
 }
 
+
+p {
+  margin-top: 2em;
+  color: #494d5f;
+  font-family: "proxima-nova", sans-serif;
+}
+
+
 .question {
   display: flex;
   margin-top: 2em;
@@ -36,3 +44,9 @@ h2 {
   border: 6px groove white;
 }
 
+.result {
+  padding: 50px;
+  background-image: url("https://data.whicdn.com/images/246811952/original.gif");
+  border: 6px groove white;
+  margin-top: 10em;
+}

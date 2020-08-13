@@ -111,3 +111,16 @@ function lookalike() {
     updateResult();
   }
 }
+
+
+
+//# to play the music
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
