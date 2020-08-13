@@ -67,7 +67,7 @@ function updateResult() {
   } else if (growScore >= 3) {
     result.innerHTML = "Grow!";
   } else if (lookalikeScore >= 3) {
-    result = "Lookalike!";
+    result.innerHTML = "Lookalike!";
   } else if (checkmateScore >= 3) {
     result.innerHTML = "Checkmate!";
   } else {
@@ -112,15 +112,13 @@ function lookalike() {
   }
 }
 
-
-
 //# to play the music
-var x = document.getElementById("myAudio"); 
+var x = document.getElementById("myAudio");
 
-function playAudio() { 
-  x.play(); 
-} 
+function playAudio() {
+  x.play();
+}
 
-function pauseAudio() { 
-  x.pause(); 
-} 
+function pauseAudio() {
+  x.pause();
+}
