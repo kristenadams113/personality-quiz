@@ -43,8 +43,6 @@ var q6a2 = document.getElementById("q6a2");
 var q6a3 = document.getElementById("q6a3");
 var q6a4 = document.getElementById("q6a4");
 
-
-
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", heather);
 q1a2.addEventListener("click", checkmate);
@@ -91,7 +89,7 @@ function updateResult() {
 function heather() {
   questionCount = questionCount + 1;
   heatherScore = heatherScore + 1;
-  alert("")
+  alert(" 'i wish i were heather...' '");
 
   if (questionCount >= 5) {
     updateResult();
@@ -101,6 +99,7 @@ function heather() {
 function checkmate() {
   questionCount = questionCount + 1;
   checkmateScore = checkmateScore + 1;
+  alert("'cause you may think you're winning but checkmate...'' ");
 
   if (questionCount >= 5) {
     updateResult();
@@ -110,6 +109,7 @@ function checkmate() {
 function grow() {
   questionCount = questionCount + 1;
   growScore = growScore + 1;
+  alert(" 'i made it out, it seems, i think i'm ready to... grow!'");
 
   if (questionCount >= 5) {
     updateResult();
@@ -119,6 +119,7 @@ function grow() {
 function lookalike() {
   questionCount = questionCount + 1;
   lookalikeScore = lookalikeScore + 1;
+  alert(" 'i'm dying to find a lookalike...'");
 
   if (questionCount >= 5) {
     updateResult();
