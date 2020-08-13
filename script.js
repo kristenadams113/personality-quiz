@@ -81,6 +81,25 @@ q5a4.addEventListener("click", checkmate);
 
 //#TODO: Define quiz functions here
 
+
+function updateResult(){
+  if (heatherScore >= 2){
+    
+  }
+  else if(growScore >=2){
+    
+  }
+  else if(lookalikeScore>=2){
+    
+  }
+  else if(checkmateScore>=2){
+    
+  }
+  else{
+    result.innerHTML = "You're giving me mixed vibes. Listen to his entire album!"
+  }
+}
+
 function heather(){
   questionCount = questionCount + 1;
   heatherScore = heatherScore + 1;
