@@ -3,7 +3,7 @@
 body {
   font-family: "proxima-nova", sans-serif;
   margin: 2em;
-  background: linear-gradient(#ffafb0, #ffc3a0);
+  background: linear-gradient(#ffafc0, #ffc3a0);
 }
 
 h1 {
@@ -28,9 +28,9 @@ h2 {
 }
 
 .header {
-  padding: 100px;
+  padding: 200px;
   text-align: center;
-  background-image: url("https://i.pinimg.com/originals/5a/2b/90/5a2b903ceda31d8b5b39a0234420e5c7.gif");
+  background-image: url("https://data.whicdn.com/images/246811952/original.gif");
   font-size: 30px;
   border: 6px solid white;
 }

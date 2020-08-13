@@ -83,20 +83,20 @@ q5a4.addEventListener("click", checkmate);
 
 
 function updateResult(){
-  if (heatherScore >= 2){
-    
+  if (heatherScore >= 3){
+    result.innerHTML = "Heather!";
   }
-  else if(growScore >=2){
-    
+  else if(growScore >=3){
+    result.innerHTML = "Grow!";
   }
-  else if(lookalikeScore>=2){
-    
+  else if(lookalikeScore>=3){
+    result = "Lookalike!";
   }
-  else if(checkmateScore>=2){
-    
+  else if(checkmateScore>=3){
+    result.innerHTML = "Checkmate!";
   }
   else{
-    result.innerHTML = "You're giving me mixed vibes. Listen to his entire album!"
+    result.innerHTML = "I'm getting mixed vibes from you. Just listen to his entire album!"
   }
 }
 
