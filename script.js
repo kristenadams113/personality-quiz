@@ -51,7 +51,6 @@ q1a1.addEventListener("click", result1);
 
 
 
-
 //#TODO: Define quiz functions here
 function result1(){
   
