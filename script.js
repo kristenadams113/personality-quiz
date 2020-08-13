@@ -37,6 +37,14 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
+//# variables for sixth quiz question
+var q6a1 = document.getElementById("q6a1");
+var q6a2 = document.getElementById("q6a2");
+var q6a3 = document.getElementById("q6a3");
+var q6a4 = document.getElementById("q6a4");
+
+
+
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", heather);
 q1a2.addEventListener("click", checkmate);
@@ -58,6 +66,10 @@ q5a1.addEventListener("click", lookalike);
 q5a2.addEventListener("click", grow);
 q5a3.addEventListener("click", heather);
 q5a4.addEventListener("click", checkmate);
+q6a1.addEventListener("click", grow);
+q6a2.addEventListener("click", checkmate);
+q6a3.addEventListener("click", lookalike);
+q6a4.addEventListener("click", heather);
 
 //#TODO: Define quiz functions here
 
@@ -79,6 +91,7 @@ function updateResult() {
 function heather() {
   questionCount = questionCount + 1;
   heatherScore = heatherScore + 1;
+  alert("")
 
   if (questionCount >= 5) {
     updateResult();
