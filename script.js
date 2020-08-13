@@ -7,9 +7,6 @@ var growScore = 0;
 var checkmateScore = 0;
 var lookalikeScore = 0;
 
-
-
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -40,17 +37,6 @@ var q5a2 = document.getElementById("q5a2");
 var q5a3 = document.getElementById("q5a3");
 var q5a4 = document.getElementById("q5a4");
 
-
-
-
-
-
-
-
-
-
-
-
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", heather);
 q1a2.addEventListener("click", checkmate);
@@ -73,67 +59,55 @@ q5a2.addEventListener("click", grow);
 q5a3.addEventListener("click", heather);
 q5a4.addEventListener("click", checkmate);
 
-
-
-
-
-
-
 //#TODO: Define quiz functions here
 
-
-function updateResult(){
-  if (heatherScore >= 3){
+function updateResult() {
+  if (heatherScore >= 3) {
     result.innerHTML = "Heather!";
-  }
-  else if(growScore >=3){
+  } else if (growScore >= 3) {
     result.innerHTML = "Grow!";
-  }
-  else if(lookalikeScore>=3){
+  } else if (lookalikeScore >= 3) {
     result = "Lookalike!";
-  }
-  else if(checkmateScore>=3){
+  } else if (checkmateScore >= 3) {
     result.innerHTML = "Checkmate!";
-  }
-  else{
-    result.innerHTML = "I'm getting mixed vibes from you. Just listen to his entire album!"
+  } else {
+    result.innerHTML =
+      "I'm getting mixed vibes from you. Just listen to his entire album!";
   }
 }
 
-function heather(){
+function heather() {
   questionCount = questionCount + 1;
   heatherScore = heatherScore + 1;
-  
-  if (questionCount >= 5){
+
+  if (questionCount >= 5) {
     updateResult();
   }
 }
 
-function checkmate(){
+function checkmate() {
   questionCount = questionCount + 1;
   checkmateScore = checkmateScore + 1;
-  
-   if (questionCount >= 5){
+
+  if (questionCount >= 5) {
     updateResult();
   }
 }
 
-function grow(){
+function grow() {
   questionCount = questionCount + 1;
   growScore = growScore + 1;
-  
-   if (questionCount >= 5){
+
+  if (questionCount >= 5) {
     updateResult();
   }
-  
 }
 
-function lookalike(){
+function lookalike() {
   questionCount = questionCount + 1;
   lookalikeScore = lookalikeScore + 1;
-  
-   if (questionCount >= 5){
+
+  if (questionCount >= 5) {
     updateResult();
   }
-  
 }
