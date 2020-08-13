@@ -69,6 +69,8 @@ q6a2.addEventListener("click", checkmate);
 q6a3.addEventListener("click", lookalike);
 q6a4.addEventListener("click", heather);
 
+
+
 //#TODO: Define quiz functions here
 
 function updateResult() {
